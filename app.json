@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "calculadora",
+    "slug": "calculadora-marcus-oliveira",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/calculadora.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/calculadora.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.marcusvinicios.calculadora"
+    },
+    "web": {
+      "favicon": "./assets/calculadora.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5282655-b474-4bec-9335-e098ac777e8a"
+      }
+    },
+    "owner": "marcus-vinicios",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a5282655-b474-4bec-9335-e098ac777e8a"
+    }
+  }
+}
