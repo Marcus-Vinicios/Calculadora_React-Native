@@ -7,7 +7,7 @@ const Header = (props) => {
         <View style={themes.header}>
             <View style={themes.result}>
                 <Text style={themes.historyText}>{props.history}</Text>
-                <Text style={themes.resultText}>{props.result}</Text>
+                <Text style={themes.resultText}>{props.conta}{props.result}</Text>
             </View>
         </View>
     )
